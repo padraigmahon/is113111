@@ -1,3 +1,9 @@
 .mainheading{
     text-align: center
 }
+
+body {
+    background-image: url("blue_white.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
