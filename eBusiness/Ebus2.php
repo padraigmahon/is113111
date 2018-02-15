@@ -1,6 +1,6 @@
 <?php
 // Start the session
-session start();
+session_start();
 ?>
 
 
@@ -16,7 +16,8 @@ session start();
     <body>
         <h4>Please enter your payment details</h4>
         
-        <form action="Ebus3.php" method="POST">
+        <form method="POST" action="Ebus3.php">
+            
             
             <label for="user_pin">
                 PIN
