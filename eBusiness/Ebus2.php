@@ -1,4 +1,11 @@
+<?php
+// Start the session
+session start();
+?>
+
+
 <!DOCTYPE html>
+
 <html>
     <head>
         <title>Enter Details</title>
@@ -11,7 +18,30 @@
         
         <form action="Ebus3.php" method="POST">
             
-            <label for="user_pin">PIN</label>
+            <label for="user_pin">
+                PIN
+                
+                </label>
+            
+            
+                <input type="password" id="user_pin" placeholder="Card Pin" maxlength="4">
+                    
+                <button type="Submit" id="btnPurchase" disabled> 
+                    Proceed with Purchase 
+                </button>
+                
         </form>
+        
+        <br />
+            
+            <button onClick="validateDetails()"> Validate </button>
+            
+            <script type="text/javascript" src="ebus2_validator.js"></script>
+        
+        <?php
+        //Set session variables
+        $_SESSION["total"] = $_POST["total"];
+        ?>
+        
     </body>
 </html>
