@@ -2,20 +2,60 @@
     <head>
         <title>117739221</title>
         <link rel="stylesheet" href="mystylesheet.css" type="text/css" />
-        
-        
+    <style>
+        .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {background-color: #f1f1f1}
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+    }
+    </style>
     </head>
     <body>
         <h1 style="font-size:60px;" class="mainheading">117739221 - is1113 project</h1>
         
-    <ul>    
-            <li><a href="cv/cv_page1.html" class="btn btn-dark">cv</a></li>
-            <li><a href="Interests/sports.html" class="btn btn-dark">Interests</a></li>
-            <li><a href="eBusiness/Ebus1.php" class="btn btn-dark">eBusiness</a></li>
-            <li><a href="https://github.com/padraigmahon/is113111">Github</a></li>
-    </ul>   
-    
+        <div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="cv/cv_page1.html" class="btn btn-dark">C.V.</a>
+    <a href="Interests/sports.html" class="btn btn-dark">Interests</a>
+    <a href="eBusiness/Ebus1.php" class="btn btn-dark">eBusiness</a>
+    <a href="https://github.com/padraigmahon/is113111">Github</a>
     <a href="https://is111311739221.herokuapp.com/">https://is111311739221.herokuapp.com/</a>
-    
+  </div>
+</div>
      </body>
 </html>
