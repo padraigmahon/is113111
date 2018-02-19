@@ -4,16 +4,18 @@
         <link rel="stylesheet" href="mystylesheet.css" type="text/css" />
     <style>
         .dropbtn {
-    background-color: #4CAF50;
+    background-color: 	#008080;
     color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
+    padding: 20px;
+    font-size: 40px;
+    border: 50px;
     cursor: pointer;
     }
 
     .dropdown {
-        position: relative;
+        position: absolute;
+        left: 0%;
+        bottom: 50%;
         display: inline-block;
     }
 
@@ -24,11 +26,12 @@
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
+        font-family: verdana; sans-serif;
     }
 
     .dropdown-content a {
         color: black;
-        padding: 12px 16px;
+        padding: 16px 16px;
         text-decoration: none;
         display: block;
     }
@@ -36,26 +39,40 @@
     .dropdown-content a:hover {background-color: #f1f1f1}
 
     .dropdown:hover .dropdown-content {
-        display: block;
+        display: inline-block;
     }
 
     .dropdown:hover .dropbtn {
-        background-color: #3e8e41;
+        background-color: #000000;
     }
+    
     </style>
+  
     </head>
     <body>
-        <h1 style="font-size:60px;" class="mainheading">117739221 - is1113 project</h1>
-        
+         <header>
+		<div id = "Title">
+		         <h1 style="font-size:60px;" class="mainheading">117739221 - is1113 project</h1>
+		    </div>
+		
+         </header>
+
         <div class="dropdown">
-  <button class="dropbtn">Dropdown</button>
-  <div class="dropdown-content">
-    <a href="cv/cv_page1.html" class="btn btn-dark">C.V.</a>
-    <a href="Interests/sports.html" class="btn btn-dark">Interests</a>
+  <button class="dropbtn">Home Navigation</button>
+    <div class="dropdown-content">
+    <a href="cv/cv_page1.html">C.V.</a>
+    <a href="Interests/sports.html">Interests</a>
     <a href="eBusiness/Ebus1.php" class="btn btn-dark">eBusiness</a>
     <a href="https://github.com/padraigmahon/is113111">Github</a>
     <a href="https://is111311739221.herokuapp.com/">https://is111311739221.herokuapp.com/</a>
   </div>
 </div>
+
+
+<div id = "Footer">
+    <p> Copyright © All Rights Reserved. Design By Pádraig Mahon></p>
+</div>
+
+    
      </body>
 </html>
