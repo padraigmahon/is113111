@@ -2,15 +2,17 @@
     text-align: center
 }
 
-body {
-    background-image: url("BackgroundImage3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 h1 {
-    font-family: Modern; Arial
-    font-size: 20px
+    font-family: Modern, Arial;
+    font-size: 20px;
+    }
+    
+ 
+    
+    
+body {
+    background: url("nature-hd-writing.jpg") no-repeat center fixed;
+    background: cover;
 }
 
 		header
@@ -18,12 +20,28 @@ h1 {
 		top:0%;
 		left:0%;
 		width:100%;
-		height:21%;
-		position:absolute;
-		background:#0066cc;
+		height:20%;
+		position:fixed;
+		background:#3b3a30;
 		background-image:url(Images/Background.jpg);
 		text-align: center;
 		color: #ffffff;
-		font-family:verdana;
-		
+		font-family:verdana, sans-serif;
 		}
+
+    #Footer {
+        position: fixed;
+        height: 10%;
+        top: 200%;
+        left: 0%;
+        width: 100%;
+        border-top: 1px solid #0066cc;
+        background: #554E4D;
+        z-index: 90;
+        color: #FFFFFF;
+        text-decoration: none;
+        text-align: center;
+        vertical-align: middle;
+        padding-top: 5px;
+        font-family: verdana;
+    }
