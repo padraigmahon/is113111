@@ -9,9 +9,48 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
    
+    <style>
+       body {margin:0;}
+       
+       ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #b2c2bf;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+</style>
+   
+   
     </head>
-    <body style="background-color:powderblue;">
-        <h1 class="mainheading">Personal Details</h1>
+    <body style="background-color:#eaece5;">
+        <br><br>
+        <h1 class="mainheading" style="background-color:#3b3a30 ; color:white"><b>Personal Details:</b></h1>
         
         <p><strong>Name:</strong> Padraig Mahon</p>
         <p><strong>Address:</strong> 21 The Anchorage, Williamstown Road, Waterford</p>
@@ -27,9 +66,12 @@
         
         <p><strong>Music: </strong>I am very musical and play both piano and guitar.</p>
         <p><strong>Sport: </strong>I am a big fan of rugby and basketball. I played rugby between the ages of 5 and 16.</p>
-        
-        <a href="homepage.html" class="btn btn-dark">Back</a>
-        <a href="cv_page2.html" class="btn btn-dark">Next</a>
-        
+       
+       
+       <ul>
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="cv_page2.html">Education</a></li>
+        <li><a href="cv_page3.html">Work Experience</a></li>
+       </ul>  
     </body>
 </html>
