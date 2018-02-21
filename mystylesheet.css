@@ -1,40 +1,93 @@
-.mainheading{
-    text-align: center
+*{
+    margin:0;
+}
+html,body{
+    height:100%;
+    width:100%;
 }
 
-h1 {
-    font-family: Modern, Arial;
-    font-size: 20px;
-    }
-    
 
-		header
-		{
+
+
+.mainheading{
+    text-align: center;
+}
+
+header h1{
+    position:relative;
+    top:30%;
+}
+
+
+.image{
+    position:absolute;
+    top:30%;
+    z-index:1;
+    width:100%;
+}
+
+.image img{
+    width:120%;
+}
+   
+  
+header
+{
 		top:0%;
 		left:0%;
 		width:100%;
 		height:20%;
 		position:fixed;
 		background:#3b3a30;
-		background-image:url(Images/Background.jpg);
 		text-align: center;
 		color: #ffffff;
 		font-family:verdana, sans-serif;
-		}
+		z-index:3;
+}
 
     #Footer {
-        position: fixed;
+        position: absolute;
         height: 10%;
-        top: 200%;
-        left: 0%;
+        top: 100%;
         width: 100%;
         border-top: 1px solid #0066cc;
         background: #554E4D;
-        z-index: 90;
+        z-index: 3;
         color: #FFFFFF;
-        text-decoration: none;
         text-align: center;
-        vertical-align: middle;
         padding-top: 5px;
         font-family: verdana;
     }
+    
+       
+       ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 20%;
+    width: 100%;
+    z-index:2;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #b2c2bf;
+}
+
+.active {
+    background-color: #4CAF50;
+}
