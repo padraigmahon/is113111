@@ -21,13 +21,13 @@ header h1{
 
 .image{
     position:absolute;
-    top:30%;
+    top:25%;
     z-index:1;
     width:100%;
 }
 
 .image img{
-    width:120%;
+    width:100%;
 }
    
   
@@ -48,7 +48,7 @@ header
     #Footer {
         position: absolute;
         height: 10%;
-        top: 100%;
+        top: 125%;
         width: 100%;
         border-top: 1px solid #0066cc;
         background: #554E4D;
