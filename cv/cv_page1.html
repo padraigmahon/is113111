@@ -21,6 +21,7 @@
                 position: fixed;
                 top: 0%;
                 width: 100%;
+                z-index:2;
                         }
         
                 li {
@@ -45,9 +46,9 @@
         
                     .image{
                 position:absolute; 
-                top:15%;
-                left:37%;
-                width:100%;
+                top:20%;
+                left:42%;
+                width:80%;
                 }
                 
                 .image img{
@@ -88,25 +89,39 @@
                     clear: both;
                 }
                 
+                 #Footer {
+                    position: absolute;
+                    height: 50%;
+                    top: 140%;
+                    width: 100%;
+                    border-top: 1px solid #0066cc;
+                    background: #b2c2bf;
+                    z-index: 3;
+                    color: #FFFFFF;
+                    text-align: center;
+                    padding-top: 5px;
+                    font-family: verdana;
+                }
+                
         </style>
    
    
     </head>
     <body style="background-color:#eaece5;">
         <br><br>
-        <h1 class="mainheading" style="background-color:#b2c2bf ; color:white ; position:fixed ; background-width:100%"><b>Personal Details:</b></h1>
+        <h1 class="mainheading" style="background-color:#b2c2bf ; color:white ; position:fixed ; background-width:100% ; z-index:1"><b>Personal Details:</b></h1>
         
         
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <p><strong>About Me:</strong></p>
-        <p>I am a 19 year old student from Waterford City, Co. Waterford.
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <p style="text-align:center ; font-size:20; "><strong>About Me:</strong></p>
+        <p style="text-align:center;">I am a 19 year old student from Waterford City, Co. Waterford.
         I study business information systems in University College Cork. I went to De La Salle College
-        for secondary school.</p>
+        for secondary school. I am very friendly and thorughly enjoy interacting with others. I am also very hardworking and have been working since I was 16 years old.</p>
         </br>
-        <p><strong>What Interests Me:</strong></p>
+        <p style="text-align:center ; font-size:20"><strong>What Interests Me:</strong></p>
         
-        <p><strong>Music: </strong>I am very musical and play both piano and guitar.</p>
-        <p><strong>Sport: </strong>I am a big fan of rugby and basketball. I played rugby between the ages of 5 and 16.</p>
+        <p style="text-align:center;"><strong>Music: </strong>I am very musical and play both piano and guitar.</p>
+        <p style="text-align:center;"><strong>Sport: </strong>I am a big fan of rugby and basketball. I played rugby between the ages of 5 and 16.</p>
        
        
            <ul>
@@ -117,6 +132,14 @@
            
          <div class="image">
              <img src="picture-of-me.jpeg">
+        </div>
+        
+        <br><br>
+        <div id="Footer">
+            <p style="text-align:center ; font-size:20;"><strong>Contact Details:</strong></p>
+            <p><strong>Address: </strong>90 Not Real Park, Fakeroad, Waterford</p>
+            <p><strong>Email: </strong>padraigmahon@fakemail.com</p>
+            <p><strong>Phone Number: </strong>0863456789</p>
         </div>
     </body>
 </html>
