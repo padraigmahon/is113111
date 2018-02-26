@@ -1,30 +1,21 @@
 #section1{
-    background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Paris-Wallpapers-Desktop-PIC-WPC00114.jpg");
-    background-repeat: no-repeat;
-    width:100%;
-    color:black;
+    background-color: #8ca3a3;
 }
 
 #section2{
-    background-image: url("https://wallpapercave.com/wp/MKfM6fA.jpg");
-    background-repeat: no-repeat;
-    width:100%;
+    background-color: #484f4f;
 }
 
 #section3{
-    background-image: url("https://lh3.ggpht.com/wvKLVv0X9DDzo0lYTIShibqPPPyXOpLWLRZDMPM3pCXA_CX4Vryw3n9ioUVZFu5Xs9E=h900");
-    background-repeat: no-repeat;
-    width:100%;
-    color:black;
+    background-color: #563f46;
 }
-
 
 .section{
     text-align: center;
     color: white;
 }
 
-       body {margin:0;}
+ body {margin:0;}
                
                    ul {
                 list-style-type: none;

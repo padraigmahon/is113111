@@ -35,11 +35,17 @@ body {margin:0;}
         h1 {
             background-color:#b2c2bf;
              color:white;
-             position:fixed;
+             position:absolute;
              top:3%;
              width:100%;
              z-index:1;
-             
+             font-family: Verdana;
+        }
+        
+        h2 {
+            background-color:#b2c2bf;
+            text-align: center;
+            font-family: Verdana;
         }
         
         * {box-sizing:border-box}
@@ -48,6 +54,7 @@ body {margin:0;}
 .slideshow-container {
   max-width: 1000px;
   position: relative;
+  top:15%;
   margin: auto;
 }
 
@@ -134,4 +141,9 @@ body {margin:0;}
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+p {
+    text-align: center;
+    font-family: Verdana;
 }
