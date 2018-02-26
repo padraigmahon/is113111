@@ -1,54 +1,66 @@
 <html>
     <head>
-        <title>Work</title>
-        <link rel="stylesheet" href="mystylesheet.css" type="text/css"/>
+            <title>Work</title>
+            <link rel="stylesheet" href="mystylesheet.css" type="text/css"/>
+            
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
-    <style>
-       body {margin:0;}
-       
-       ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0%;
-    width: 100%;
-}
+        <style>
+               body {margin:0;}
+               
+               ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            top: 0%;
+            width: 100%;
+            }
+            
+            li {
+                float: left;
+            }
+            
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            
+            li a:hover:not(.active) {
+                background-color: #b2c2bf;
+            }
+            
+            .active {
+                background-color: #4CAF50;
+            }
 
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover:not(.active) {
-    background-color: #b2c2bf;
-}
-
-.active {
-    background-color: #4CAF50;
-}
-
-
-</style>
+                  .image{
+                position:absolute; 
+                top:30%;
+                left:35%;
+                width:80%;
+                }
+           
+                  .paragraph{
+                      position:absolute;
+                      top:75%;
+                      text-align:center;
+                  }
+           
+        </style>
     
     </head>
     <body style="background-color:#eaece5;">
         <br><br>
-        <h1 class="mainheading" style="background-color:#3b3a30 ; color:white"><b>Work Experience</b></h1>
+        <h1 class="mainheading" style="background-color:#b2c2bf ; color:white"><b>Work Experience</b></h1>
         
         <p><strong>Company:</strong> Faithlegg House Hotel</p>
         <p><strong>Job Title:</strong> Waiter/Bartender</p>
@@ -59,6 +71,20 @@ li a:hover:not(.active) {
             <li><a href="cv_page1.html">Personal Details</a></li>
             <li><a href="cv_page2.html">Education</a></li>
         </ul>
-    
+        
+        <div class=image>
+            <figure>
+             <img src="faithlegg-work.jpg" alt="faithlegg" width="450" height="228" style="border-radius:75%">
+             <figcaption>Fig.1 - Faithlegg House Hotel.</figcaption>
+            </figure>
+        </div>  
+        
+        <div class=paragraph>  
+          <p><b>Job Description:</b></p>
+          <p>I work in banqueting at Faithlegg House Hotel and Golf Resort, this job involves serving food and drinks
+          at weddings and various other events as well as assisting in other departments of the 
+          hotel including the restaurant and bar. This job has taught me hard work and also how to 
+          work in a team in a professional environment.</p>
+        </div> 
     </body>
 </html>
