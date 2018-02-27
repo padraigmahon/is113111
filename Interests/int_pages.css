@@ -6,16 +6,16 @@
 }
 
 #section2{
-    background-image: url("https://wallpapercave.com/wp/MKfM6fA.jpg");
+    background-image: url("https://www.hdwallpapers.in/walls/tokyo_by_night-wide.jpg");
     background-repeat: no-repeat;
     width:100%;
 }
 
 #section3{
-    background-image: url("https://lh3.ggpht.com/wvKLVv0X9DDzo0lYTIShibqPPPyXOpLWLRZDMPM3pCXA_CX4Vryw3n9ioUVZFu5Xs9E=h900");
+    background-image: url("http://www.hdnicewallpapers.com/Walls/Big/Countries%20and%20City/Beautiful_Sydney_City_of_Australia_Wallpaper.jpg");
     background-repeat: no-repeat;
     width:100%;
-    color:black;
+    
 }
 
 
@@ -48,6 +48,7 @@
                     text-align: center;
                     padding: 14px 16px;
                     text-decoration: none;
+                    font-family: verdana;
                 }
                 
                 li a:hover:not(.active) {

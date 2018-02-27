@@ -1,0 +1,87 @@
+  body {margin:0;}
+               
+                   ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+                position: fixed;
+                top: 0%;
+                width: 100%;
+                z-index:2;
+                        }
+        
+                li {
+                    float: left;
+                }
+                
+                li a {
+                    display: block;
+                    color: white;
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                    font-family: verdana;
+                }
+                
+                li a:hover:not(.active) {
+                    background-color: #b2c2bf;
+                }
+                
+                .active {
+                    background-color: #4CAF50;
+                }
+                
+                h1 {
+                    background-color:#b2c2bf;
+                    font-family: verdana;
+                    position: fixed;
+                    top:3%;
+                }
+                
+                h2 {
+                    text-align: center;
+                    font-family: verdana;
+                    font-size: 40px;
+                }
+                
+                h3 {
+                    text-align: center;
+                    font-family: verdana;
+                }
+                
+                p{
+                    font-family: verdana;
+                }
+                
+                  #Footer {
+                    position: absolute;
+                    height: 25%;
+                    top: 75%;
+                    width: 100%;
+                    border-top: 1px solid #0066cc;
+                    background: #b2c2bf;
+                    z-index: 3;
+                    color: #FFFFFF;
+                    text-align: center;
+                    padding-top: 5px;
+                    font-family: verdana;
+                }
+                
+    body {
+        background-image:url("http://web4bharat.com/wp-content/uploads/revslider/slider1/i17.jpg");
+    }
+    
+    /*https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Partner-background-pictures-business-driver-challenge-static-city-PIC-WPC008190.png*/
+    
+    .cloudimage img{
+        height:120px;
+   
+    }
+    
+    .cloudimage {
+        position: absolute;
+        top:10%;
+        right:10%;
+    }
