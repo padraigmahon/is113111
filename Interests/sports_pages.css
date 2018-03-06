@@ -1,5 +1,6 @@
 body {margin:0;}
-               
+    
+    /* nav bar styling code taken from w3 schools */           
    ul {
         list-style-type: none;
         margin: 0;

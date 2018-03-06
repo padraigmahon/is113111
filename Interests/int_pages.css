@@ -1,3 +1,4 @@
+/* adding background images to page pilling slides */
 #section1{
     background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Paris-Wallpapers-Desktop-PIC-WPC00114.jpg");
     background-repeat: no-repeat;
@@ -25,7 +26,7 @@
 }
 
        body {margin:0;}
-               
+               /* code for creating and styling nav bar code taken from w3 schools */
                    ul {
                 list-style-type: none;
                 margin: 0;

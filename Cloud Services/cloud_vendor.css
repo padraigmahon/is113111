@@ -38,6 +38,7 @@
                     font-family: verdana;
                     position: fixed;
                     top:3%;
+                    z-index:1;
                 }
                 
                 h2 {
@@ -79,9 +80,89 @@
         height:120px;
    
     }
-    
+    /* styling for images for the about cloud page */
     .cloudimage {
         position: absolute;
         top:10%;
         right:10%;
+    }
+    
+    .aboutpara {
+        text-align: center;
+    }
+    
+    .logoimg {
+        position: absolute;
+        left: 33%;
+    }
+    
+    .logoimg2 {
+        position: absolute;
+        left: 23%;
+    }
+    
+    .logoimg3 {
+        position: absolute;
+        left: 13%;
+        width:75%;
+        height:70%;
+    }
+    
+   .logoimg3 img {
+       height:100%;
+       width:100%;
+   }
+   
+   .logoimg4 {
+        position: absolute;
+        left:18%;
+        width:70%;
+        
+   }
+   
+    .logoimg4 img {
+       height:100%;
+       width:100%;
+   }
+    
+      .aboutpara2 {
+        text-align: center;
+        position:absolute;
+        top:95%;
+        width:100%;
+    }
+    
+    .aboutpara2 h3 {
+        position: absolute;
+        top:1%;
+        left:50%;
+        transform:translate(-50%, -50%);
+    }
+    
+    .aboutpara3 {
+           text-align: center;
+        position:absolute;
+        top:200%;
+        width:100%;
+    }
+    
+    .aboutpara3 h3 {
+        position: absolute;
+        top:1%;
+        left:50%;
+        transform:translate(-50%, -50%);
+    }
+    
+    .aboutpara4 {
+           text-align: center;
+        position:absolute;
+        top:300%;
+        width:100%;
+    }
+    
+    .aboutpara4 h3 {
+        position: absolute;
+        top:1%;
+        left:50%;
+        transform:translate(-50%, -50%);
     }

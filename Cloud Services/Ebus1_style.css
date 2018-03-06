@@ -1,0 +1,134 @@
+/* Nav Bar */
+
+ body {
+        background-image:url("http://web4bharat.com/wp-content/uploads/revslider/slider1/i17.jpg");
+    }
+    
+      ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            top: 0%;
+            width: 100%;
+            z-index:2;
+                    }
+    
+            li {
+                float: left;
+            }
+            
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-family:verdana;
+            }
+            
+            li a:hover:not(.active) {
+                background-color: #b2c2bf;
+            }
+            
+            .active {
+                background-color: #4CAF50;
+            }
+        
+        .labelSalesforce {
+            font-family: verdana;
+            font-size: 15;
+            position: absolute;
+            left: 40%;
+            top: 30%;
+        }
+        
+        .labelCloud9 {
+            font-family: verdana;
+            font-size: 15;
+            position: absolute;
+            left: 40%;
+            top: 35%;
+        }
+        
+        .labelAws {
+            font-family: verdana;
+            font-size: 15;
+            position: absolute;
+            left: 40%;
+            top: 40%;
+        }
+        
+        .labelGmail {
+            font-family: verdana;
+            font-size: 15;
+            position: absolute;
+            left: 40%;
+            top: 45%;
+        }
+        
+        .labelGmail {
+            font-family: verdana;
+            font-size: 15;
+            position: absolute;
+            left: 40%;
+            top: 50%;
+        }
+        
+        .labelSubtotal {
+            font-family: verdana;
+            font-size: 15;
+            position: absolute;
+            left: 40%;
+            top: 55%;
+        }
+        
+        .labelDiscount {
+            font-family: verdana;
+            font-size: 15;
+            position: absolute;
+            left: 40%;
+            top: 60%;
+        }
+        
+        .labelVat {
+            font-family: verdana;
+            font-size: 15;
+            position: absolute;
+            left: 40%;
+            top: 65%;
+        }
+        
+        .labelTotal {
+            font-family: verdana;
+            font-size: 15;
+            position: absolute;
+            left: 40%;
+            top: 70%;
+        }
+        
+         .buttonProceed {
+            font-family: verdana;
+            font-size: 15;
+            position: absolute;
+            left: 40%;
+            top: 75%;
+        }
+        
+       .buttonCalculate {
+            font-family: verdana;
+            font-size: 15;
+            position: absolute;
+            left: 40%;
+            top: 80%;
+        }
+        
+        .linkClear {
+            font-family: verdana;
+            font-size: 15;
+            position: absolute;
+            left: 50%;
+            top: 80%;
+        }

@@ -1,3 +1,4 @@
+/* adding background colors to page pilling slides, code from the labs*/
 #section1{
     background-color: #8ca3a3;
 }
@@ -16,7 +17,7 @@
 }
 
  body {margin:0;}
-               
+               /* Nav Bar code taken from w3 schools */
                    ul {
                 list-style-type: none;
                 margin: 0;
@@ -45,7 +46,8 @@
                 li a:hover:not(.active) {
                     background-color: #b2c2bf;
                 }
-                
-                ol {
-                    text-align: center;
-                }
+               
+               ol {
+                   position: absolute;
+                   left:42%;
+               }
