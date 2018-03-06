@@ -83,8 +83,18 @@
             <button class="buttonCalculate" onClick="calcSub()">Calculate Cost</button>
             <a class="linkClear" role="button" href="Ebus1.php">Clear Choice</a>
             
+            
+            <img class="imageSalesforce" src="http://www.stickpng.com/assets/images/58482f67cef1014c0b5e4a81.png">
+            
+            <img class="imageCloud9" src="https://ace.c9.io/build/demo/kitchen-sink/logo.png">
+            
+            <img class="imageAws" src="https://teched360.com/uploads/ckeditor/pictures/63/content_AmazonWebservices_Logo.png">
+            
+           <img class="imageGmail" src="http://pngimg.com/uploads/gmail_logo/gmail_logo_PNG13.png">
+            
             <!--- links for nav bar --->
             <ul>
+                <li><a href="homepage.html">Home</a></li>
                 <li><a href="cloud_homepage.html">Welcome</a></li>
                 <li><a href="about.html">About Cloud</a></li>
             </ul>
