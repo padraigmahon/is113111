@@ -1,0 +1,122 @@
+  body {
+        background-image:url("http://web4bharat.com/wp-content/uploads/revslider/slider1/i17.jpg");
+    }
+ 
+ /* nav bar from w3 schools */
+      ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            top: 0%;
+            left:0%;
+            width: 100%;
+            z-index:2;
+                    }
+    
+            li {
+                float: left;
+            }
+            
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-family:verdana;
+            }
+            
+            li a:hover:not(.active) {
+                background-color: #b2c2bf;
+            }
+            
+            .active {
+                background-color: #4CAF50;
+            }
+            
+            .labelPin {
+                font-family: verdana;
+                font-size: 18;
+                position: absolute;
+                left: 40%;
+                top: 30%;
+            }
+            
+            .txtPin {
+                position: absolute;
+                left: 45%;
+                top: 30%;
+            }
+            
+            .labelName {
+                font-family: verdana;
+                font-size: 18;
+                position: absolute;
+                left: 40%;
+                top: 35%;
+            }
+            
+            .txtName {
+                position: absolute;
+                left: 45%;
+                top: 35%;
+            }
+            
+            .labelEmail {
+                font-family: verdana;
+                font-size: 18;
+                position: absolute;
+                left: 40%;
+                top: 40%;
+            }
+            
+            .txtEmail {
+                position: absolute;
+                left: 45%;
+                top: 40%;
+            }
+            
+            h4 {
+                font-family: verdana;
+                font-size: 40;
+                position: absolute;
+                left: 40%;
+                top: 20%;
+            }
+            
+              .buttonValidate {
+                font-family: verdana;
+                font-size: 27;
+                position: absolute;
+                left: 40%;
+                top: 48%;
+                /* code recieved from w3 schools https://www.w3schools.com/css/css3_buttons.asp */
+                background-color: #555555; /* Black */
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                border-radius: 12px;
+            }
+        
+             .buttonPurchase {
+                font-family: verdana;
+                font-size: 27;
+                position: absolute;
+                left: 50%;
+                top: 48%;
+                /* code recieved from w3 schools https://www.w3schools.com/css/css3_buttons.asp */
+                background-color: #555555; /* Black */
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                border-radius: 12px;
+        }

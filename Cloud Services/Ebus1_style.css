@@ -1,9 +1,7 @@
-/* Nav Bar */
-
  body {
         background-image:url("http://web4bharat.com/wp-content/uploads/revslider/slider1/i17.jpg");
     }
-    
+    /* nav bar from w3 schools */
       ul {
             list-style-type: none;
             margin: 0;
@@ -103,7 +101,7 @@
             top: 70%;
         }
         
-         .buttonProceed {
+         .buttonCalculate {
             font-family: verdana;
             font-size: 18;
             position: absolute;
@@ -120,7 +118,7 @@
             border-radius: 12px;
         }
         
-       .buttonCalculate {
+       .buttonProceed {
             font-family: verdana;
             font-size: 18;
             position: absolute;
@@ -141,7 +139,7 @@
             font-family: verdana;
             font-size: 18;
             position: absolute;
-            left: 57%;
+            left: 60%;
             top: 88%;
         }
         

@@ -9,6 +9,7 @@ session_start();
 <html>
     <head>
         <title>Enter Details</title>
+        <link rel="stylesheet" href="Ebus2_style.css" type="text/css" />
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js""></script>
@@ -19,31 +20,31 @@ session_start();
         <form method="POST" action="Ebus3.php">
             
             
-            <label for="user_pin">
-            PIN
+            <label class="labelPin" for="user_pin">
+                PIN
             </label>
-            <input type="password" id="user_pin" placeholder="Card Pin" maxlength="4">
+            <input class="txtPin" type="password" id="user_pin" placeholder="Card Pin" maxlength="4">
             
             
-            <label for="user_name">
+            <label class="labelName" for="user_name">
                 Name
             </label>
-                <input type="text" id="user_name" placeholder="Enter Name" name= "username">
+                <input class="txtName" type="text" id="user_name" placeholder="Enter Name" name= "username">
                 
-             <label for="user_email">
-            Email
+             <label class="labelEmail" for="user_email">
+                Email
             </label>
-            <input type="email" id="user_email" placeholder="Enter Email"  name= "email">
+            <input class="txtEmail" type="email" id="user_email" placeholder="Enter Email"  name= "email">
                 
-            <button type="Submit" id="btnPurchase" disabled> 
+            <button class="buttonPurchase" type="Submit" id="btnPurchase" disabled> 
                 Proceed with Purchase 
             </button>
                 
         </form>
         
-        <br />
+        <br/>
             
-              <button class="btn-validate btn btn-yellow" onclick="validatePIN()">validate</button>
+            <button class="buttonValidate" onclick="validatePIN()">validate</button>
             
             <script type="text/javascript" src="Ebus2_validator.js"></script>
         
@@ -51,6 +52,10 @@ session_start();
         //Set session variables
         $_SESSION["total"] = $_POST["total"];
         ?>
+        
+        <ul>
+            <li><a href="Ebus1.php">Back</a></li>
+        </ul>    
         
     </body>
 </html>

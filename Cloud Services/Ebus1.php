@@ -94,7 +94,7 @@
             
             <!--- links for nav bar --->
             <ul>
-                <li><a href="homepage.html">Home</a></li>
+                <li><a href="../homepage.html">Home</a></li>
                 <li><a href="cloud_homepage.html">Welcome</a></li>
                 <li><a href="about.html">About Cloud</a></li>
             </ul>
